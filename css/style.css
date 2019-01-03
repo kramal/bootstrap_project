@@ -18,7 +18,7 @@
 }
 
 body {
-  font-family: var(--font-family-text);
+  font-family: var(--font-family-text) !important;
   font-weight: 300;
   font-size: 1.2em;
 }
@@ -38,4 +38,77 @@ body {
 
 .main-navigation a:hover {
   color: var(--yellow) !important;
+}
+
+@media (min-width: 768px) {
+  .event-info {
+    margin-top: 15rem;
+  }
+}
+
+.event-info p {
+  color: var(--white);
+  font-size: 1.8rem;
+}
+
+.event-numbers {
+  color: var(--white);
+}
+
+.event-numbers .display-4 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 0.7;
+  padding-bottom: 1rem;
+}
+.event-numbers > div {
+  margin-bottom: 2rem;
+}
+@media (min-width: 992px) {
+  .event-numbers .display-4 {
+    font-size: 6rem;
+  }
+}
+
+.event-numbers span {
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--white);
+}
+
+.event-numbers span:before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.event-numbers .conference {
+  color: var(--yellow);
+}
+
+.event-numbers .workshops {
+  color: var(--blue);
+}
+
+.event-numbers .days {
+  color: var(--green);
+}
+
+/*About*/
+h2 {
+  font-family: var(--font-family-text);
+  font-weight: 900;
+  color: var(--purple);
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 4rem;
+  }
+}
+
+.py-7 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
