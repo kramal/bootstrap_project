@@ -40,7 +40,6 @@ body {
 }
 
 .site-headers-body {
-  padding: 0px;
   background-color: #0e2a59;
   color: var(--white) !important;
   font-weight: 400 !important;
