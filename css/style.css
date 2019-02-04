@@ -1,6 +1,23 @@
 .links-nav {
+  /*opacity: 0.88;*/
+  background-color: #2d3549 !important;
+  margin-top: 54px;
 }
 
+.links-nav .nav-item > a {
+  font-size: 1.2rem;
+  font-weight: 400 !important;
+}
+
+.links-nav .nav-item > a:hover {
+  color: lavender;
+}
+
+.socials-nav {
+  opacity: 0.85;
+}
+
+/* Carousel CSS */
 #carouselExampleIndicators .carousel-item {
   height: 100vh;
   min-height: 350px;
@@ -13,14 +30,10 @@
 
 #carouselExampleIndicators .carousel-caption {
   color: white;
-  /*xright: 40%;*/
   text-align: center;
   max-width: 50%;
   left: 0;
   top: 30%;
-  /*top: 50%; */
-  /*xtransform: translateY(-50%);
-  xbottom: initial;*/
   background: rgba(0, 0, 0, 0.5);
   padding: 10px;
   height: 30%;
@@ -38,4 +51,49 @@
 #carouselExampleIndicators .carousel-inner {
   width: 100%;
   max-height: 800px !important;
+}
+
+/* Menu cards CSS */
+.finance-card {
+  background-color: #0e2a59;
+}
+
+.finance-card .card-link {
+  display: block;
+  color: #0e2a59;
+  font-size: 1.5rem;
+}
+
+.finance-card .card-link:hover {
+  background-image: linear-gradient(to right, white, #0e2a59);
+  opacity: 0.5;
+}
+
+.tax-card {
+  background-color: #273b5c;
+}
+
+.tax-card .card-link {
+  display: block;
+  color: #0e2a59;
+  font-size: 1.5rem;
+}
+
+.tax-card .card-link:hover {
+  background-image: linear-gradient(to right, white, #0e2a59);
+  opacity: 0.5;
+}
+
+/* Media queries CSS*/
+@media (max-width: 768px) {
+  .socials-nav {
+    display: none;
+  }
+
+  .links-nav {
+    opacity: 1;
+    background-color: #2d3549 !important;
+    margin-top: 0px !important;
+    padding: 1px;
+  }
 }
