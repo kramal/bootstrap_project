@@ -84,6 +84,36 @@
   opacity: 0.5;
 }
 
+/* Modal Window */
+.modal-full {
+  min-width: 101%;
+  margin: 0;
+}
+
+#myModal {
+  top: 50%;
+}
+
+#myModal {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: white;
+}
+
+#myModal .btn {
+  border: 1px outset white;
+  color: white;
+}
+
+#myModal .btn-primary-outline {
+  background-color: transparent !important;
+  border-color: white;
+}
+
+/* Gallery News Box*/
+.news-gallery {
+  height: 100px !important;
+}
 /* Media queries CSS*/
 @media (max-width: 768px) {
   .socials-nav {

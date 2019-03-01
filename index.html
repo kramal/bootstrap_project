@@ -228,7 +228,13 @@
                 Финансовый Аудит
               </h4>
 
-              <a href="#" class="card-link text-center">Оставить заявку</a>
+              <a
+                href="#myModal"
+                class="card-link text-center"
+                role="button"
+                data-toggle="modal"
+                >Оставить заявку</a
+              >
             </div>
           </div>
           <div class="col-sm d-flex  m-0 p-0">
@@ -240,7 +246,7 @@
                     class="float-right"
                     width="70"
                     height="70"
-                    src="./img/icons8-plus-math-480.png"
+                    src="./img/icons8-bonds-filled-500.png"
                   />
                 </div>
               </div>
@@ -249,7 +255,13 @@
                 Налоговый Аудит
               </h4>
 
-              <a href="#" class="card-link text-center">Оставить заявку</a>
+              <a
+                href="#myModal"
+                class="card-link text-center"
+                role="button"
+                data-toggle="modal"
+                >Оставить заявку</a
+              >
             </div>
           </div>
           <div class="col-sm d-flex  m-0 p-0">
@@ -270,7 +282,13 @@
                 Сопутствующие Услуги
               </h4>
 
-              <a href="#" class="card-link text-center">Оставить заявку</a>
+              <a
+                href="#myModal"
+                class="card-link text-center"
+                role="button"
+                data-toggle="modal"
+                >Оставить заявку</a
+              >
             </div>
           </div>
           <div class="col-sm d-flex  m-0 p-0">
@@ -291,23 +309,110 @@
                 Обучение
               </h4>
 
-              <a href="#" class="card-link text-center">Оставить заявку</a>
+              <a
+                href="#myModal"
+                class="card-link text-center"
+                role="button"
+                data-toggle="modal"
+                >Оставить заявку</a
+              >
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <div
+      class="modal"
+      id="myModal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-full" role="document">
+        <div class="modal-content">
+          <div class="modal-body" style="background: red !important;">
+            <form>
+              <div class="row">
+                <div class="form-group col-sm-6 col-lg-6">
+                  <label for="recipient-name" class="col-form-label"
+                    >Ваше имя и фамилия:</label
+                  >
+                  <input type="text" class="form-control" id="recipient-name" />
+                </div>
+                <div class="form-group col-sm-6 col-lg-6 rounded-0">
+                  <label for="recipient-name" class="col-form-label"
+                    >Телефон:</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="recipient-phone"
+                  />
+                </div>
+                <div class="col-sm-8 col-lg-8">
+                  <p class="lead">
+                    Оставьте ваши данные и мы обязательно свяжемся с Вами для
+                    предоставления консультации
+                  </p>
+                </div>
+                <div class="col-sm-4 col-lg-4 text-right">
+                  <button
+                    type="button"
+                    class="btn btn-lg rounded-0"
+                    data-dismiss="modal"
+                  >
+                    Отправить
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Page Content -->
-    <section class="py-5">
-      <div class="container">
-        <h1 class="display-4">Full Page Image Slider</h1>
-        <p class="lead">
-          The background images for the slider are set directly in the HTML
-          using inline CSS. The images in this snippet are from
-          <a href="https://unsplash.com">Unsplash</a>, taken by
-          <a href="https://unsplash.com/@joannakosinska">Joanna Kosinska</a>!
-        </p>
+    <section>
+      <div class="row news-gallery">
+        <div class="col-md-6 col-sm-6 co-xs-12 gal-item">
+          <div class="row h-100">
+            <div class="col-md-12 col-sm-12 col-xs-12 gal-item">
+              <div class="box">
+                <img
+                  src="./img/jpg_mainpage_link3.jpg"
+                  class="img-responsive"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-sm-6 co-xs-12 gal-item">
+          <div class="row h-100">
+            <div class="col-md-12 col-sm-12 col-xs-12 gal-item">
+              <div class="row">
+                <div class="col-6">
+                  <div class="row h-50">
+                    <div class="col-md-12 col-sm-12 co-xs-12  h-50">
+                      Class 1
+                    </div>
+                  </div>
+                  <div class="row h-50">
+                    <div class="col-md-12 col-sm-12 co-xs-12 h-50">
+                      Class 2
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  Test
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <script
