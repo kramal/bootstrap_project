@@ -112,8 +112,57 @@
 
 /* Gallery News Box*/
 .news-gallery {
-  height: 100px !important;
+  /*height: 500px !important;*/
 }
+
+.news-gallery .card-img-caption {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.news-gallery .card-img-caption .card-img-top {
+  z-index: 0;
+}
+
+.news-gallery .card-img-caption .card-text {
+  text-align: left;
+  width: 100%;
+  color: red;
+  font-size: 20px;
+  margin-top: 60%;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Footer */
+footer div.row {
+  background-color: #2d3549;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+footer a.subscribe {
+  display: block;
+  color: white;
+  position: relative;
+  margin-right: 10%;
+  margin-top: 50px;
+  opacity: 56%;
+  /*opacity: 56%;*/
+  bottom: 10px !important;
+}
+
+footer img.logo {
+  position: relative;
+  margin-right: 10%;
+  margin-top: 50px;
+  opacity: 56%;
+  bottom: 10px !important;
+}
+
 /* Media queries CSS*/
 @media (max-width: 768px) {
   .socials-nav {
