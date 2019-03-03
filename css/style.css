@@ -115,6 +115,29 @@
   /*height: 500px !important;*/
 }
 
+/* News Cards*/
+.news-cards {
+  color: #25282c;
+}
+
+.news-cards .card-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #0e2a59;
+}
+
+.news-cards a {
+  color: #0e2a59;
+  text-align: right;
+  text-decoration: none;
+}
+
+.news-cards a:hover {
+  color: #9e0b0f;
+
+  font-weight: 700;
+}
+
 .news-gallery .card-img-caption {
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
