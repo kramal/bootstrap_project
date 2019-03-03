@@ -134,6 +134,52 @@
   z-index: 1;
 }
 
+/* fixed request Button */
+button.request {
+  position: fixed;
+  bottom: 150px;
+  z-index: 20;
+  transition: bottom ease 0.5s;
+  right: 20px;
+  border: 0px;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 350px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button.request span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button.request span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button.request:hover span {
+  padding-right: 25px;
+}
+
+button.request:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 /* Footer */
 footer div.row {
   background-color: #2d3549;
