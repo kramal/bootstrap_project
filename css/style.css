@@ -185,7 +185,7 @@ button.request span {
 }
 
 button.request span:after {
-  content: '\00bb';
+  content: "\00bb";
   position: absolute;
   opacity: 0;
   top: 0;
@@ -200,6 +200,41 @@ button.request:hover span {
 button.request:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+/* Publication Page CSS */
+
+#mainPublicationCard {
+  width: 94%;
+  display: block;
+  margin-top: 108px;
+  border: 1px inset black;
+  margin-left: 2.99%;
+  margin-right: 2.99%;
+}
+#mainPublicationCard .card {
+  border: none;
+}
+
+#mainPublicationCard .card .card-text {
+  text-align: justify;
+  font-size: 0.9rem;
+}
+
+#mainPublicationCard .jumbotron {
+  background: none;
+  text-align: justify;
+}
+
+#listPublicationsCards {
+  width: 94%;
+  display: block;
+  margin-left: 2.99%;
+  margin-right: 2.99%;
+}
+
+#listPublicationsCards .card-link {
+  color: #9e0b0f;
 }
 
 /* Footer */
