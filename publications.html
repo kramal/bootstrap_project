@@ -46,8 +46,8 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <div class="bgPublications"></div>
     <!-- Navigation Email socila  -->
-    <a href="https://icons8.com/icon/42345/account">account icon by Icons8</a>
     <nav
       class="socials-nav navbar navbar-expand-lg navbar-light bg-light fixed-top p-0 m-0"
     >
@@ -111,7 +111,9 @@
           <li class="nav-item">
             <a class="nav-link active" href="./publications.html">Публикации</a>
           </li>
-          <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacts.html">Контакты</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#"
               ><img src="./img/icon_kazakh.png" width="32" height="24"
@@ -330,12 +332,56 @@
       </div>
     </section>
 
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+    <div
+      class="modal"
+      id="myModal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-full" role="document">
+        <div class="modal-content">
+          <div class="modal-body" style="background: #9e0b0f !important;">
+            <form>
+              <div class="row">
+                <div class="form-group col-sm-6 col-lg-6">
+                  <label for="recipient-name" class="col-form-label"
+                    >Ваше имя и фамилия:</label
+                  >
+                  <input type="text" class="form-control" id="recipient-name" />
+                </div>
+                <div class="form-group col-sm-6 col-lg-6 rounded-0">
+                  <label for="recipient-name" class="col-form-label"
+                    >Телефон:</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="recipient-phone"
+                  />
+                </div>
+                <div class="col-sm-8 col-lg-8">
+                  <p class="lead">
+                    Оставьте ваши данные и мы обязательно свяжемся с Вами для
+                    предоставления консультации
+                  </p>
+                </div>
+                <div class="col-sm-4 col-lg-4 text-right">
+                  <button
+                    type="button"
+                    class="btn btn-lg rounded-0"
+                    data-dismiss="modal"
+                  >
+                    Отправить
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="request"><span>Отправить Заявку</span></button>
 
     <footer
       class="section footer-classic context-dark bg-image"

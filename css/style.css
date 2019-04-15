@@ -1,3 +1,9 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
 .links-nav {
   /*opacity: 0.88;*/
   background-color: #2d3549 !important;
@@ -204,16 +210,34 @@ button.request:hover span:after {
 
 /* Publication Page CSS */
 
+.bgPublications {
+  /* The image used */
+  background-image: url("../img/publications_background.jpg");
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -10;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #mainPublicationCard {
   width: 94%;
   display: block;
   margin-top: 108px;
-  border: 1px inset black;
+  /*border: 1px inset black;*/
   margin-left: 2.99%;
   margin-right: 2.99%;
+  font-weight: 500;
 }
 #mainPublicationCard .card {
   border: none;
+  opacity: 0.86;
 }
 
 #mainPublicationCard .card .card-text {
@@ -231,13 +255,59 @@ button.request:hover span:after {
   display: block;
   margin-left: 2.99%;
   margin-right: 2.99%;
+  opacity: 0.86;
 }
 
 #listPublicationsCards .card-link {
   color: #9e0b0f;
 }
 
+/* Contacts Page CSS*/
+.bgContacts {
+  /* The image used */
+  background-image: url("../img/contacts_background.jpg");
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -10;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mainContactsSection {
+  width: 94%;
+  margin-top: 108px;
+  /*border: 1px inset black;*/
+  margin-left: 2.99%;
+  margin-right: 2.99%;
+  font-weight: 500;
+}
+
+#mainContactsSection .card {
+  opacity: 0.899;
+}
+
+#contactFormBody {
+  background: white;
+  opacity: 0.88;
+}
+
+.contacts-info {
+  color: #9e0b0f;
+}
+
 /* Footer */
+
+footer {
+  width: 100%;
+  bottom: 0px;
+}
+
 footer div.row {
   background-color: #2d3549;
   color: white;
@@ -267,7 +337,6 @@ footer img.logo {
 }
 
 /* Media queries CSS*/
-
 @media screen and (max-width: 988px) {
   .socials-nav {
     display: none;
