@@ -10,6 +10,12 @@ html {
   margin-top: 54px;
 }
 
+.aboutus-nav {
+  margin-top: 108px;
+  background-color: #9e0b0f !important;
+  opacity: 0.76;
+}
+
 .links-nav .nav-item > a {
   font-size: 1.2rem;
   font-weight: 400 !important;
@@ -229,7 +235,9 @@ button.request:hover span:after {
 #mainPublicationCard {
   width: 94%;
   display: block;
-  margin-top: 108px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  padding-top: 40px;
   /*border: 1px inset black;*/
   margin-left: 2.99%;
   margin-right: 2.99%;
@@ -256,6 +264,7 @@ button.request:hover span:after {
   margin-left: 2.99%;
   margin-right: 2.99%;
   opacity: 0.86;
+  margin-bottom: 40px;
 }
 
 #listPublicationsCards .card-link {
@@ -299,6 +308,33 @@ button.request:hover span:after {
 
 .contacts-info {
   color: #9e0b0f;
+}
+
+/* About Us Page*/
+
+.bgAboutus {
+  /* The image used */
+  background-image: url("../img/aboutus_history.png");
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -10;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#aboutusPageContent {
+  margin-top: 141px;
+}
+
+#history {
+  background: #ffffff;
+  opacity: 0.73;
 }
 
 /* Footer */
@@ -346,5 +382,13 @@ footer img.logo {
     opacity: 1;
     background-color: #2d3549 !important;
     margin-top: 0px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #contactFormBody {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
   }
 }
