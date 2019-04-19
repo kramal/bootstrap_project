@@ -37,3 +37,16 @@ $(document).ready(function() {
     $(".modal-profile").modal({ show: true });
   });
 });
+
+// On history details clicked
+$("#history_details_button").click(function(event) {
+  event.stopPropagation();
+  console.log($("#history_details").is(":hidden"));
+  if ($("#history_details").is(":hidden")) {
+    $("#history_details").show();
+    $("#history_details_button").innerTEXT = "Свернуть";
+  } else {
+    $("#history_details").hide();
+    $("#history_details_button").innerTEXT = "Развернуть";
+  }
+});
