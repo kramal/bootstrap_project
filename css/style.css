@@ -13,7 +13,7 @@ html {
 .aboutus-nav {
   margin-top: 108px;
   background-color: #9e0b0f !important;
-  opacity: 0.88;
+  /*opacity: 0.88;*/
 }
 
 .links-nav .nav-item > a {
@@ -326,10 +326,6 @@ button.request:hover span:after {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-#aboutusPageContent {
-  margin-top: 141px;
 }
 
 #history {

@@ -1,3 +1,7 @@
+#aboutusPageContent {
+  margin-top: 141px;
+}
+
 #values {
   background: #2d3549;
 }
@@ -233,8 +237,8 @@
   /*background-image: url("../img/charity_background.png");*/
   color: black;
   text-align: justify;
-  font-weight: 700;
   z-index: 10;
+  background-color: rgba(255, 255, 255, 1) !important;
 }
 
 #charity_layer {
@@ -245,7 +249,7 @@
   display: inline;
   width: 100%;
   height: 100%;
-  opacity: 0.61;
+  opacity: 0.77;
   z-index: -1;
 }
 

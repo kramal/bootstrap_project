@@ -1,0 +1,164 @@
+#servicesPageContent {
+  margin-top: 163px;
+}
+
+/* Info */
+div.info {
+  color: white;
+  font-size: 1.2rem;
+}
+
+div.info ul {
+  list-style-type: none;
+}
+
+/* Audit section*/
+#audit {
+  background: rgb(45, 53, 73, 0.6);
+  text-align: center;
+  min-height: 400px;
+  background-size: cover;
+  position: relative;
+}
+
+#audit::after {
+  content: "";
+  width: 100% !important;
+  height: 100%;
+  background: url("../img/services_audit.jpg") no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.41;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2;
+}
+
+/* Review Section */
+#review {
+  text-align: center;
+  background: rgb(45, 53, 73, 0.6);
+  /*background-image: url("../img/services_audit.jpg");*/
+  background-position: center;
+  min-height: 400px;
+  background-size: cover;
+  position: relative;
+}
+
+#review::after {
+  content: "";
+  width: 100% !important;
+  height: 100%;
+  background: url("../img/services_tax.jpg") no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.41;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2;
+}
+
+/* Finance Section */
+#finance {
+  text-align: center;
+  /*background-image: url("../img/services_audit.jpg");*/
+  background-position: center;
+  min-height: 400px;
+  background-size: cover;
+  position: relative;
+}
+
+#finance::after {
+  content: "";
+  width: 100% !important;
+  height: 100%;
+  background: url("../img/services_review.jpg") no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.41;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2;
+}
+
+/* Tax Section */
+#tax {
+  text-align: center;
+  /*background-image: url("../img/services_audit.jpg");*/
+  background-position: center;
+  min-height: 400px;
+  background-size: cover;
+  position: relative;
+}
+
+#tax::after {
+  content: "";
+  width: 100% !important;
+  height: 100%;
+  background: url("../img/services_review.jpg") no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.41;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2;
+}
+
+/* Account Section */
+#account {
+  text-align: center;
+  background: rgb(45, 53, 73, 0.6);
+  background-position: center;
+  min-height: 400px;
+  background-size: cover;
+  position: relative;
+}
+
+#account::after {
+  content: "";
+  width: 100% !important;
+  height: 100%;
+  background: url("../img/services_review.jpg") no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.41;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2;
+}
+
+/* Learning Section */
+#learning {
+  text-align: center;
+  background: rgb(45, 53, 73, 0.6);
+  /*background-image: url("../img/services_audit.jpg");*/
+  background-position: center;
+  min-height: 400px;
+  background-size: cover;
+  position: relative;
+}
+
+#learning::after {
+  content: "";
+  width: 100% !important;
+  height: 100%;
+  background: url("../img/services_review.jpg") no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.41;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2;
+}
